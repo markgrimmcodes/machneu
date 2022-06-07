@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="main-container">
+        <header class="main-header">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+          <select class="dropdown" id="main-navi">
+            <option class="navi-options" value=""></option>
+            <option class="navi-options" value="">Students</option>
+            <option class="navi-options" value="">Schedule</option>
+            <option class="navi-options" value="">Live Recordings</option>
+            <option class="navi-options" value="">Meetings</option>
+          </select>
+          <h1>CODING BOOTCAMPS EUROPE</h1>
+        </header>
+        <article class="searchbars">
+          <section class="search-header">
+            <h2 class="head-two">STUDENTS</h2>
+            <p>Your fellow students</p>
+          </section>
+          <form>
+            <input
+              class="student-search"
+              placeholder=" Search students by name"
+            />
+            <button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+            </button>
+          </form>
+          <section class="classes">
+            <form id="yearform">
+              <select id="year">
+                <option value="">MayClass2022</option>
+                <option value="">AprilClass2022</option>
+                <option>MarchClass2022</option>
+              </select>
+              <svg
+                class="arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-down-short"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"
+                />
+              </svg>
+            </form>
+            <form id="timeform">
+              <select id="time">
+                <option>Full-time</option>
+
+                <option>Part-time</option>
+              </select>
+              <svg
+                class="arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-down-short"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"
+                />
+              </svg>
+            </form>
+          </section>
+        </article>
+        <article class="students">
+          <h2 id="students-header">Full-time class of May 2022</h2>
+          <ul id="student-list">
+            <li class="may-student">
+              <img
+                class="pic"
+                id="modda"
+                src="https://github.com/moddapampe.png"
+              />
+              <span class="name">Basti</span>
+              <a
+                class="student-git"
+                href="https://github.com/moddapampe"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://github.com/moddapampe</a
+              >
+            </li>
+            <li class="may-student">
+              <img
+                class="pic"
+                id="martin"
+                src="https://github.com/KAMA-Kasckak-Martin.png"
+              />
+              <span class="name">Martin</span>
+              <a
+                class="student-git"
+                href="https://github.com/kama-kasckak-martin"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://github.com/KAMA-Kasckak-Martin</a
+              >
+            </li>
+            <li class="may-student">
+              <img class="pic" id="dan" src="https://github.com/danmille.png" />
+              <span class="name">Daniel</span>
+              <a
+                class="student-git"
+                href="https://github.com/danmille"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://github.com/danmille</a
+              >
+            </li>
+            <li class="may-student">
+              <img
+                class="pic"
+                id="gott"
+                src="https://github.com/markgrimmcodes.png"
+              />
+              <span class="name">Mark</span>
+              <a
+                class="student-git"
+                href="https://github.com/markgrimmcodes"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://github.com/markgrimmcodes</a
+              >
+            </li>
+          </ul>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>
