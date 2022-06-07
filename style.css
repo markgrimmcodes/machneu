@@ -129,7 +129,7 @@ button {
 }
 #year {
   all: unset;
-  width: 10rem;
+  width: 15rem;
   padding: 0.5rem;
   border: 1px solid var(--theme-color);
   border-radius: 2px;
